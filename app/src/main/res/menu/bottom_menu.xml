@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/transactions"
+        android:icon="@drawable/baseline_auto_stories_24"
+        android:title="Trans" />
+
+    <item
+        android:id="@+id/stats"
+        android:icon="@drawable/baseline_bar_chart_24"
+        android:title="Stats" />
+
+    <item
+        android:id="@+id/accounts"
+        android:icon="@drawable/baseline_backup_table_24"
+        android:title="Accounts" />
+
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/baseline_dehaze_24"
+        android:title="More" />
+</menu>
