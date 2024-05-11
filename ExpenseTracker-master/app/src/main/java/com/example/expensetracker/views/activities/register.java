@@ -132,7 +132,7 @@ public class register extends AppCompatActivity {
                                 if (task.isSuccessful()) {
 
                                     FirebaseUser user = mAuth.getCurrentUser();
-                                    ReadWriteUserDetails readWriteUserDetails = new ReadWriteUserDetails(email,password,name,dob,mobile);
+                                    ReadWriteUserDetails readWriteUserDetails = new ReadWriteUserDetails(name,email,dob,mobile,password);
                                     DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("Users");
 
                                     databaseReference.child(user.getUid()).setValue(readWriteUserDetails).addOnCompleteListener(new OnCompleteListener<Void>() {
